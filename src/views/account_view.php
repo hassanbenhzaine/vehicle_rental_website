@@ -772,8 +772,11 @@
 
         }
         public function default(){
+            
             if(isset($_COOKIE['stay'])) {
                 session_start();
+                if($_SESSION["privilege"] == "admin"){
+
                 $this->start();
 ?>
 <h2 class="text-center">Welcome, <?php echo $_SESSION['firstName'] .' '. $_SESSION['lastName'] ?></h2>
@@ -895,6 +898,9 @@ foreach($veh[1] as $k=>$row) {
     </script>
 <?php   
                 $this->end();
+            } else{
+                RedirectURL('account/reservations');
+            }
           } else{
                 RedirectURL('');
             }
