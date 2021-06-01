@@ -1,0 +1,402 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+footer{
+    font-size: 16px;
+    background: #000;
+    padding: 7em 0;
+}
+
+.widget h2{
+    font-weight: normal;
+    color: #fff;
+    margin-bottom: 40px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.list-unstyled{
+    padding-left: 0;
+    list-style: none;
+}
+
+.logo img{
+    width: 110px;
+    height: auto;
+}
+
+.list-unstyled li a{
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    outline: none !important;
+}
+
+.list-unstyled li a:hover{
+    color: #fff;
+}
+
+
+.widget p{
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.home::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -165px;
+    overflow: visible;
+    width: 100%;
+    height: 120px;
+    z-index: -1;
+    transform: skewY(-4deg);
+    background-color: #f8f9fa;
+}
+
+.home{
+    margin-top: 90px;
+}
+
+.spacer{
+    padding-top: 40px;
+}
+
+body{
+    background-image: url("../img/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    font-family: "Poppins", sans-serif;
+    background-attachment: fixed;
+}
+/* 
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Regular.ttf'),
+    url('../fonts/Poppins-Bold.ttf'),
+    url('../fonts/Poppins-Medium.ttf'),
+    url('../fonts/Poppins-SemiBold.ttf'),
+    url('../fonts/Poppins-Black.ttf');
+} */
+
+
+
+
+.intro p{
+    font-size: 45px;
+    text-align: center;
+}
+
+#search{
+    position: relative;
+}
+
+#search input{
+    height: 45px;
+}
+
+#search button img{
+    width: 24px;
+    height: auto;
+}
+
+#search button{
+    border: none;
+    background: transparent;
+    position: absolute;
+    right: 13px;
+    top: 9px;
+}
+
+.subheading {
+    display: block;
+    margin-bottom: 5px;
+    color: #1089ff;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.subheading2{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+#search input:focus{
+    box-shadow: none;
+    border-color: #fff;
+}
+
+#logo{
+    width: 140px;
+    height: auto;
+}
+
+.nav-item a:hover{
+    color:#01d28e;
+}
+
+
+
+
+.owl-item{
+    width: 350px;
+    margin: 0 11px;
+    padding: 0;
+}
+
+.social a img{
+    width: 23px;
+    height: auto;
+}
+
+.social{
+    list-style: none;
+    margin: 0 10px 0 0;
+    display: inline-block;
+}
+
+#slider1,#slider2, #slider3 {
+    margin-bottom:50px;
+}
+
+.social a{
+    height: 50px;
+    width: 50px;
+    display: block;
+    float: left;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+}
+.owl-outer{
+    margin-bottom: 65px;
+}
+
+
+#slider1 ol li,#slider2 ol li, #slider3 ol li{
+    height: 10px;
+    margin: 0 5px;
+    border-radius: 50%;
+    background: #e6e6e6;
+}
+
+.car-wrap{
+    box-shadow: 0px 5px 12px -1px rgb(0 0 0 / 6%);
+    background: #fff;
+}
+
+.car-wrap img{
+    width: 100%;
+    height: 220px;
+}
+
+.cat{
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.2);
+    display: block;
+    margin-bottom: 0;
+}
+
+.price{
+    color: #1089ff;
+    margin-bottom: 0;
+    font-weight: 600;
+    margin-left: auto;
+}
+
+.itembuttons a:nth-child(1){
+    margin-right: 0.25rem !important;
+}
+
+.itembuttons a:nth-child(2){
+    margin-left: 0.25rem !important;
+}
+
+.btn-secondary{
+    background: #01d28e !important;
+    border: 1px solid #01d28e !important;
+    color: #fff !important;
+}
+
+.btn-secondary:hover{
+    background: #00a870d3 !important;
+    border: 1px solid #01d28e !important;
+}
+
+
+#signup  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#signup .inputbox{
+    width: 49%;
+}
+
+#logininstead, #signupinstead{
+    margin-right: auto;
+}
+.close{
+    top: -40px;
+    position: absolute;
+    right: 0;
+    color: rgba(255, 255, 255, 0.7);
+    background: transparent;
+    border: 0;
+    font-size: 24px;
+    font-family: Arial, Baskerville, monospace;
+}
+
+.logincontent{
+    position: relative;
+}
+
+.iframe-scaler button:hover{
+    color: #fff;
+}
+
+.itembuttons a{
+    width: 50%;
+}
+
+.price span{
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.text h2{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.text h2 a {
+    color:  #000;
+    text-decoration: none;
+}
+
+.text{
+    border-top: none;
+    padding: 20px 30px 30px;
+}
+
+.rounded{
+    border-radius: 0.25rem !important;
+}
+
+.navlink{
+    font-size: 15px;
+    padding-top: .9rem;
+    padding-bottom: .9rem;
+    margin: 0 12px;
+    color: #fff;
+    font-weight: 400;
+    opacity: 1 !important;
+}
+
+.block-23 ul{
+    padding: 0;
+}
+
+.block-23 ul li{
+    display: table;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+.block-23 ul li span{
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.icon{
+    width: 40px;
+    height: auto;
+    padding-top: 2px;
+    color: white;
+}
+
+.icon img{
+    width: 40%;
+    height: auto;
+}
+
+.block-23 ul li a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.block-23 ul li a span:hover{
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.block-23 ul li a span{
+    color: #fff;
+}
+
+.copyright, .copyright a:hover{
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.copyright a{
+        color: #fff;
+    }
+
+.ques, .icon{
+    display: table-cell;
+    vertical-align: top;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: .3;
+    background: #000000;
+    z-index: -1;
+    height: 150vh;
+}
+
+@media (min-width: 768px) {
+.ml-md-5, .mx-md-5{
+    margin-left: 3rem !important;
+}
+}
+
+.navbar-toggler {
+    border: none;
+    color: rgba(255, 255, 255, 0.5) !important;
+    padding-right: 0;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: .1em;
+}
+
+.oi {
+    width: 20px;
+    height: auto;
+}
+
+@media (max-width: 991.98px){
+nav{
+    background: #000000 !important;
+    top: 0 !important;
+    z-index: 1;
+}
+.navbar-expand-lg > .container, .navbar-expand-lg > .container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+}
+}
+#mainnav{
+    position: absolute;
+    width: 100%;
+    top: 25px;
+}
+
